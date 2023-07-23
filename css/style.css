@@ -20,9 +20,6 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.logo-header:visited {
-  color: var(--navyblue);
-}
 .logo-footer {
   font-family: "raleway", sans-serif;
   color: var(--cloud);
@@ -31,9 +28,6 @@ body {
   line-height: 1.16667;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-}
-.logo-footer:visited {
-  color: var(--cloud);
 }
 .logo-link {
   color: var(--iris);
@@ -53,9 +47,6 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
-}
-.menu-item:visited {
-  color: var(--navyblue);
 }
 .menu-item:focus {
   color: var(--ocean);
@@ -111,6 +102,12 @@ h1 {
   color: var(--white);
   background-color: var(--iris);
   cursor: pointer;
+  border-radius: 4px;
+  border-color: var(--iris);
+}
+.order-service-button:hover,
+.order-service-button:focus {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .company-adventages {
   font-size: 20px;
@@ -153,16 +150,11 @@ h2 {
   letter-spacing: 0.64px;
   background-color: var(--cornflower);
   cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid var(--cornflower);
+  background: var(--cloud, #f4f4fd);
 }
-.project-description-buttons:focus {
-  color: var(--white);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
-  background-color: var(--ocean);
-}
+.project-description-buttons:focus,
 .project-description-buttons:hover {
   color: var(--white);
   text-align: center;
@@ -171,7 +163,10 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.64px;
   background-color: var(--ocean);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
+
 .project-name {
   font-size: 20px;
   font-weight: 500;
