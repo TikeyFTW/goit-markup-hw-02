@@ -5,27 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <a href="/"><span>Web</span>Studio</a>
+        <a href="/" class="logo-header"
+          ><span class="logo logo-link">Web</span>Studio</a
+        >
         <menu>
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li>Contacts</li>
+          <li><a href="./index.html" class="menu-item">Studio</a></li>
+          <li><a href="./portfolio.html" class="menu-item">Portfolio</a></li>
+          <li class="menu-item">Contacts</li>
         </menu>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
+      <div>
+        <a href="mailto:info@devstudio.com" class="contacts"
+          >info@devstudio.com</a
+        >
+        <a href="tel:+11(000)111-11-11" class="contacts">+11 (000) 111-11-11</a>
+      </div>
     </header>
     <main>
       <ul>
-        <li><button type="button">All</button></li>
-        <li><button type="button">Web Site</button></li>
-        <li><button type="button">App</button></li>
-        <li><button type="button">Design</button></li>
-        <li><button type="button">Marketing</button></li>
+        <li class="project-description-buttons">
+          <button type="button">All</button>
+        </li>
+        <li class="project-description-buttons">
+          <button type="button">Web Site</button>
+        </li>
+        <li class="project-description-buttons">
+          <button type="button">App</button>
+        </li>
+        <li class="project-description-buttons">
+          <button type="button">Design</button>
+        </li>
+        <li class="project-description-buttons">
+          <button type="button">Marketing</button>
+        </li>
       </ul>
       <div>
         <ul>
@@ -38,8 +60,8 @@
                 height="300"
               />
               <figcaption>
-                <p><b>Banking App Interface Concept</b></p>
-                <p>App</p>
+                <p class="project-name"><b>Banking App Interface Concept</b></p>
+                <p class="project-description">App</p>
               </figcaption>
             </figure>
           </li>
@@ -52,8 +74,8 @@
                 height="300"
               />
               <figcaption>
-                <p><b>Cashless Payment</b></p>
-                <p>Marketing</p>
+                <p class="project-name"><b>Cashless Payment</b></p>
+                <p class="project-description">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -66,8 +88,8 @@
                 height="300"
               />
               <figcaption>
-                <p><b>Meditation App</b></p>
-                <p>App</p>
+                <p class="project-name"><b>Meditation App</b></p>
+                <p class="project-description">App</p>
               </figcaption>
             </figure>
           </li>
@@ -80,8 +102,8 @@
                 height="300"
               />
               <figcaption>
-                <p><b>Taxi Service</b></p>
-                <p>Marketing</p>
+                <p class="project-name"><b>Taxi Service</b></p>
+                <p class="project-description">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -94,8 +116,8 @@
                 height="300"
               />
               <figcaption>
-                <p><b>Screen Illustrations</b></p>
-                <p>Design</p>
+                <p class="project-name"><b>Screen Illustrations</b></p>
+                <p class="project-description">Design</p>
               </figcaption>
             </figure>
           </li>
@@ -108,8 +130,8 @@
                 height="300"
               />
               <figcaption>
-                <p><b>Online Courses</b></p>
-                <p>Marketing</p>
+                <p class="project-name"><b>Online Courses</b></p>
+                <p class="project-description">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -122,8 +144,8 @@
                 height="300"
               />
               <figcaption>
-                <p><b>Instagram Stories Concept</b></p>
-                <p>Design</p>
+                <p class="project-name"><b>Instagram Stories Concept</b></p>
+                <p class="project-description">Design</p>
               </figcaption>
             </figure>
           </li>
@@ -136,8 +158,8 @@
                 height="300"
               />
               <figcaption>
-                <p><b>Organic Food</b></p>
-                <p>Web Site</p>
+                <p class="project-name"><b>Organic Food</b></p>
+                <p class="project-description">Web Site</p>
               </figcaption>
             </figure>
           </li>
@@ -150,8 +172,8 @@
                 height="300"
               />
               <figcaption>
-                <p><b>Fresh Coffee</b></p>
-                <p>Web Site</p>
+                <p class="project-name"><b>Fresh Coffee</b></p>
+                <p class="project-description">Web Site</p>
               </figcaption>
             </figure>
           </li>
@@ -159,7 +181,9 @@
       </div>
     </main>
     <footer>
-      <a href="/"><span>Web</span>Studio</a>
+      <a href="/" class="logo-footer"
+        ><span class="logo logo-link">Web</span>Studio</a
+      >
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
