@@ -145,6 +145,15 @@ h2 {
   background-color: var(--cornflower);
   cursor: pointer;
 }
+.project-description-buttons:focus {
+  color: var(--white);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.64px;
+  background-color: var(--ocean);
+}
 .project-description-buttons:hover {
   color: var(--white);
   text-align: center;
